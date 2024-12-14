@@ -33,3 +33,9 @@ function newNumbers (n, fill) {
 
     }
 }
+
+document.getElementById("button_id").addEventListener("click", function (){ // gör så att när man klickar på "create"-knappen så kommer det man skriver i input att påverka hur många siffror som dyker upp på sidan
+    let n = document.getElementById("input_same_on_all_pages").value;
+    newNumbers(n, true);
+})
+
