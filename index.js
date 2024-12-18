@@ -5,12 +5,11 @@ function randomNumber (min, max) {
     return Math.floor(min + (max - min) * Math.random()); // denna funktion väljer en random siffra mellan det minsta och högst tal man skriver när man anropar funktionen
 }
 
-// return Math.florr(Math.random() * 100)
 
 function newNumbers (n, fill) {
-    const numbersContainer = document.getElementById("numbers")
+    let numbersContainer = document.getElementById("numbers")
+    numbersContainer.innerHTML = ""; // för varje gång man trycker på knappen "create" tömsinnehållet 
 
-    numbersContainer.innerHTML = ""; 
 
     for (let i = 0; i < n; i++) {
         const div = document.createElement("div"); 
