@@ -85,3 +85,11 @@ input {
 number_css {
     border: 1px solid black;
 }
+
+div.highlighted {
+    background-color: rgb(63, 83, 119) !important;
+}
+
+div.removed {
+    background-color: rgb(96, 112, 144);
+}
