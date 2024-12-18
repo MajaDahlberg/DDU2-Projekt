@@ -9,11 +9,12 @@ function randomNumber (min, max) {
 function newNumbers (n, fill) {
     let numbersContainer = document.getElementById("numbers")
     numbersContainer.innerHTML = ""; // för varje gång man trycker på knappen "create" tömsinnehållet 
+    
 
 
     for (let i = 0; i < n; i++) {
         const div = document.createElement("div"); 
-        numbersContainer.appendChild(div); 
+        numbersContainer.appendChild(div);  
 
         div.style.backgroundColor = "rgb(117, 174, 183)";
         div.style.borderRadius = "4px";
