@@ -75,6 +75,30 @@ input {
     margin-left: 8px;
 }
 
+.white_box_sum {
+    background-color: white;
+    border: 1px solid black;
+
+    padding-left: 110px;
+    padding-right: 110px;
+    
+    margin: 0;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+    border-radius: 4px;
+}
+
+.gridNumber {
+    background-color: rgb(117, 174, 183);
+    border-radius: 4px;
+    border: 2px solid white;
+    color: white;
+    display: flex; 
+    justify-content: center;
+    padding: 8px;
+}
+
 #numbers {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -82,9 +106,20 @@ input {
     margin-top: 20px;
 }
 
+
+
+.sum_of_marked {
+    margin-top: 15px;
+    height: 35px;
+    display: flex;
+    text-align: center;
+}
+
 number_css {
     border: 1px solid black;
 }
+
+
 
 div.highlighted {
     background-color: rgb(63, 83, 119) !important;
@@ -97,3 +132,9 @@ div.removed {
 .gridNumber:hover {
     background-color: rgb(138, 165, 214) !important;
 }
+
+.gridNumber.clicked {
+    background-color: rgb(8, 131, 118);
+}
+
+.gridNumber.hover
