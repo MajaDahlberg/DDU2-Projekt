@@ -93,6 +93,8 @@ input {
     margin-right: 8px;
     
     border-radius: 4px;
+
+    height: 100%;
 }
 
 .gridNumber {
@@ -135,6 +137,43 @@ number_css {
 
     height: 25px;
     
+}
+
+#fill_cleared {
+    background: rgb(117, 174, 183);;
+    padding: 1.1px 10px 1.8px 10px;
+    
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    color: white;
+
+    height: 25px;
+}
+
+#reset_button {
+    background: rgb(117, 174, 183);;
+    padding: 1.1px 10px 1.8px 10px;
+    
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    color: white;
+
+    height: 25px;
+
+    margin-left: 15px;
+}
+
+#button_add_up {
+    background: rgb(117, 174, 183);;
+    padding: 1.1px 10px 1.8px 10px;
+    
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    color: white;
+
+    height: 25px;
+
+    margin-left: 15px; 
 }
 
 
