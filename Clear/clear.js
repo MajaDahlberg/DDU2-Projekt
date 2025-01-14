@@ -1,14 +1,4 @@
-/* 
-
-när man hoverar över siffrorna så ska de man håller på bli blåa 
-när man trycker på dem så ändras bakgrundsfärgen till RÖD 
-men HOVER-färgen ändras till ORANGE på den man klickat på 
-
-trycker man på fill cleared så försvinner css:en man lagt till när man interagerat med diven 
-
-*/
-
-document.getElementById("button_id").addEventListener("click", function (){ // gör så att när man klickar på "create"-knappen så kommer det man skriver i input att påverka hur många siffror som dyker upp på sidan
+document.getElementById("button_id").addEventListener("click", function (){ 
     let n = document.getElementById("input_same_on_all_pages").value;
     newNumbers(n, true);
 

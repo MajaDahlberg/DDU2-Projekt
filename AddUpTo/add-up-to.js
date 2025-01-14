@@ -1,13 +1,4 @@
-/*
-
-man skriver in ett nummer i input, när man sen trycker på knappen så ska det markeas två siffror som får den summan man skriver i
-inputet
-
-finns det inte två nummer som får den summan så händer det ingeting 
-
-*/
-
-document.getElementById("button_id").addEventListener("click", function (){ // gör så att när man klickar på "create"-knappen så kommer det man skriver i input att påverka hur många siffror som dyker upp på sidan
+document.getElementById("button_id").addEventListener("click", function (){ 
     let n = document.getElementById("input_same_on_all_pages").value;
     newNumbers(n, true);
 })

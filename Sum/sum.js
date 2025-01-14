@@ -1,12 +1,3 @@
-/* 
-sum of all: summerar alla nummer som dyker upp i griden 
-- tar textcontent och summerar det? 
-
-sum of marked: man markerar själv de nummer som saka summeras, när jag trycker på ett nummer ska bakgrunden bli grön 
-- event listener "click", inom den eventlistener ska man koppla till css (alt. style i js) för att ändra färg
-
-*/ 
-
 document.querySelector("#button_id").addEventListener("click", function(){
     let n = document.getElementById("input_same_on_all_pages").value;
     newNumbers(n, true);
