@@ -1,4 +1,9 @@
 
+document.getElementById("button_id").addEventListener("click", function (){ // gör så att när man klickar på "create"-knappen så kommer det man skriver i input att påverka hur många siffror som dyker upp på sidan
+    let n = document.getElementById("input_same_on_all_pages").value;
+    newNumbers(n, true);
+})
+
 let pNewRandomNumber = document.getElementById("p_new_random_number");
 
 document.getElementById("new_random_number_button").addEventListener("click", function(){
