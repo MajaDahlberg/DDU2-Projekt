@@ -16,14 +16,16 @@ document.getElementById("button_add_up").addEventListener("click", function(){
 
     for(let gridNumber of allGridNumbers){
         for(let otherGridNumber of allGridNumbers){
-            let numberOne = parseInt(gridNumber.textContent);
-            let numberTwo = parseInt(otherGridNumber.textContent);
-
-            if(numberOne + numberTwo == addUpTo){
-                gridNumber.classList.add("clicked");
-                otherGridNumber.classList.add("clicked");
-                foundNumbers = true;
-                break;
+            if(gridNumber != otherGridNumber){
+                let numberOne = parseInt(gridNumber.textContent);
+                let numberTwo = parseInt(otherGridNumber.textContent);
+    
+                if(numberOne + numberTwo == addUpTo){
+                    gridNumber.classList.add("clicked");
+                    otherGridNumber.classList.add("clicked");
+                    foundNumbers = true;
+                    break;
+                }
             }
         }
         if(foundNumbers == true){
